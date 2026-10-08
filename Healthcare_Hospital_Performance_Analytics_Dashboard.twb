@@ -3343,8 +3343,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1900' minheight='1900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='371' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='370' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='375' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='374' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='11123' id='13' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='20'>🏥 Healthcare Hospital Performance Analytics</run>
@@ -3658,8 +3658,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='207' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='206' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='211' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='210' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='8750' id='9' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='24'>Hospital Operations</run>
@@ -3833,8 +3833,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='229' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='228' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='233' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='232' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='9375' id='13' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='24'>Patient &amp; Disease Analysis</run>
@@ -4016,8 +4016,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='166' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='165' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='170' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='169' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='8500' id='11' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='24'>Patient Satisfaction Analytics </run>
@@ -4057,7 +4057,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='280' h='45437' id='28' is-fixed='true' name='Satisfaction by Age Group' w='33998' x='65333' y='9500'>
-                  <layout-cache cell-count-w='5' non-cell-size-w='64' type-h='fixed' type-w='cell' />
+                  <layout-cache type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='solid' />
@@ -4197,8 +4197,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='170' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='169' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='174' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='173' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='9625' id='6' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='24'>Revenue Analytics</run>
@@ -5058,10 +5058,10 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='125' />
+      <active id='-1' />
       <simple-id uuid='{6DD445F2-0E00-420F-B0B9-F8D84C463875}' />
     </window>
-    <window class='dashboard' maximized='true' name='Patient &amp; Disease Analysis'>
+    <window class='dashboard' name='Patient &amp; Disease Analysis'>
       <viewpoints>
         <viewpoint name='Diagnosis Trend'>
           <zoom type='entire-view' />
@@ -5088,7 +5088,7 @@
           <zoom type='fit-height' />
         </viewpoint>
       </viewpoints>
-      <active id='105' />
+      <active id='-1' />
       <simple-id uuid='{5010A6A2-E17A-43FE-8544-8E27D9081931}' />
     </window>
     <window class='dashboard' name='Revenue Analytics'>
@@ -5106,10 +5106,10 @@
           <zoom type='fit-height' />
         </viewpoint>
       </viewpoints>
-      <active id='68' />
+      <active id='-1' />
       <simple-id uuid='{F63FB236-1F8E-40C5-8967-57B4B5E51D34}' />
     </window>
-    <window class='dashboard' name='Patient Satisfaction Analytics'>
+    <window class='dashboard' maximized='true' name='Patient Satisfaction Analytics'>
       <viewpoints>
         <viewpoint name='Patient Satisfaction Distribution'>
           <zoom type='entire-view' />
@@ -5129,7 +5129,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='64' />
+      <active id='-1' />
       <simple-id uuid='{68CF2C68-C77D-4178-8929-422F4CAD5BE1}' />
     </window>
   </windows>
